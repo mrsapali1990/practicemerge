@@ -45,6 +45,7 @@ public class HomePage extends BaseClass{
 		WebDriverWait wait1 = new WebDriverWait(driver, 10);
 	    wait1.until(ExpectedConditions.visibilityOf(searchBtn));
 		searchBtn.click();
+		//changes done
 		
 		//Logic lists of all Bikes and prize 
 

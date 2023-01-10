@@ -37,6 +37,7 @@ public class HomePage extends BaseClass{
 		String expTitle = "New Cars1 & Bikes, Prices, News, Reviews, Buy & Sell Used Cars - ZigWheels.com";
 		Assert.assertEquals(ActualTitle, expTitle, "HomePage Open successfully!!");
 		System.out.println("First Assertion passed........");
+		System.out.println("I have done changes");
 		
 		search.sendKeys(Manufacturer);
 		WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -53,6 +54,11 @@ public class HomePage extends BaseClass{
 				System.out.println("                                              ");
 				//System.out.println("Total products on page is :"+Productlist.size());
 				System.out.println("                                              ");
+				System.out.println("done changes");
+				System.out.println("changes 2");
+				System.out.println("changes3");
+				System.out.println("changes 4");
+				System.out.println("changes 5");
 
 				for(int j=0;j<Productlist.size();j++) 
 				{

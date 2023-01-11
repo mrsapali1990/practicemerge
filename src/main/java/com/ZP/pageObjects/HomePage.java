@@ -60,6 +60,7 @@ public class HomePage extends BaseClass{
 				System.out.println("changes3");
 				System.out.println("changes 4");
 				System.out.println("changes 5");
+		                System.out.println("marge change2");
 
 				for(int j=0;j<Productlist.size();j++) 
 				{

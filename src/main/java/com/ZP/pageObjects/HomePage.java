@@ -34,7 +34,7 @@ public class HomePage extends BaseClass{
 	public void search(String Manufacturer) throws Exception
 	{
 		String ActualTitle = driver.getTitle();
-		String expTitle = "New Cars1 & Bikes, Prices, News, Reviews, Buy & Sell Used Cars - ZigWheels.com";
+		String expTitle = "New Cars & Bikes, Prices, News, Reviews, Buy & Sell Used Cars - ZigWheels.com";
 		Assert.assertEquals(ActualTitle, expTitle, "HomePage Open successfully!!");
 		System.out.println("First Assertion passed........");
 		System.out.println("I have done changes");
